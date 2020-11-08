@@ -55,6 +55,16 @@ namespace GameplayIngredients
         {
             return GetType().Name;
         }
+
+#if UNITY_EDITOR
+        public bool isFlow => hideFlags == HideFlags.HideInInspector;
+        private Vector2 m_FlowGraphPosition; 
+
+        public static void SetAsFlowComponent(Callable callable, bool flow)
+        {
+            callable.hideFlags = flow ? HideFlags.HideInInspector : HideFlags.None;
+        }
+#endif
     }
 }
 
