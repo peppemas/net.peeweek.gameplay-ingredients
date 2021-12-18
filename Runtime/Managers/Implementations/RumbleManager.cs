@@ -43,6 +43,7 @@ namespace Managers.Implementations
                     _gamepad.SetMotorSpeeds(_lowFreq, _highFreq);
                     break;
                 case RumblePattern.Pulse:
+                    
                     break;
                 case RumblePattern.Linear:
                     break;
