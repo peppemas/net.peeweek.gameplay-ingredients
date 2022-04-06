@@ -1,5 +1,18 @@
 # Changelog
 
+## 2020.2.12
+
+#### Improved
+
+* Add isBusy bool to check whether a Level Streaming is in progress
+
+## 2020.2.11
+
+#### Improved
+
+* Improvements to the Selection History Window (Alt+H)
+* Storage of Messages is now handled as ints (PropertyToID mapping)
+
 ## 2020.2.10
 
 #### Added
